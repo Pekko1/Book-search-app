@@ -1,7 +1,7 @@
 ﻿# Book Search App
 
 This is a simple book search application that uses the OpenLibrary API. The app allows users to search for books by category and view detailed descriptions of each book. The application is built with Webpack and uses Lodash for data handling.
-Here is the [Link](https://app.netlify.com/sites/endearing-lollipop-cdbc87/overview)
+Here is the [Link](https://endearing-lollipop-cdbc87.netlify.app/)
 
 ![Screenshot](./src/assets/images/Screenshot.png)
 
