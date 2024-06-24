@@ -1,0 +1,70 @@
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    background: rgb(59,52,181);
+    background: linear-gradient(90deg, rgba(59,52,181,1) 0%, rgba(38,38,177,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#app {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(245, 240, 234);
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#searchBox {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px ;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color:white;
+}
+
+#clearButton{
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+
+#clearButton:hover{
+    background-color: white;
+}
+
+#bookList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#bookList li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.description{
+    line-height: 23px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: white;
+    font-size: 19px;
+}
+
+#footer-info{
+    font-size: 12px;
+    text-align: right;
+}
